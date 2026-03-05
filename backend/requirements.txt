@@ -1,0 +1,21 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic[email]==2.9.2
+bcrypt==4.0.1
+python-multipart==0.0.12
+structlog==24.4.0
+slowapi==0.1.9
+python-dotenv==1.0.1
+cryptography==43.0.0
+
+# Database drivers
+asyncpg==0.29.0          # Postgres, Supabase, Neon, Redshift, CockroachDB
+aiomysql==0.2.0          # MySQL, PlanetScale, TiDB
+motor==3.5.1             # MongoDB, Atlas, DocumentDB
+pymongo==4.8.0
+
+# Enterprise database drivers (optional — comment out if not needed)
+google-cloud-bigquery==3.25.0
+google-auth==2.35.0
+snowflake-connector-python==3.12.3
